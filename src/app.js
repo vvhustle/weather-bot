@@ -28,7 +28,6 @@ app.post('/hook', function (request, response) {
     var eventObj = request.body.events[0];
     var message = eventObj.message;
     var request = require('request');
-    // 전역 변수 사용
     var data = [{
         "type": "text",
         "text": "data",
