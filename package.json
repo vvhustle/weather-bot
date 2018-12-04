@@ -1,0 +1,19 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wonhee Jung, leveloper97@gmail.com",
+  "homepage": "leveloper97@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-schedule": "^1.2.0",
+    "openssl": "^1.1.0",
+    "request": "^2.75.0"
+  }
+}
